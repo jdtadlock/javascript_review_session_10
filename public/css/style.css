@@ -1,0 +1,19 @@
+input, button, textarea {
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+form > * {
+  margin-bottom: 5px;
+  padding: 7px;
+}
+
+#notes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
